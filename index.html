@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J1R8LY48L0"></script>
+
+	<title>Bootstrap toggle menu</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<!-- Menu -->
+	<div class="sticky-top" id="top-menu">
+
+		<!-- Menu principal -->
+		<header class="navbar navbar-expand-md bd-navbar border-bottom" id="main-menu">
+			<div class="container justify-content-center">
+				<a href="/"
+					class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+					<p id="logo"><i class="fa-solid fa-star"></i> Janice Vilela </p>
+				</a>
+				<!-- <button class="navbar-toggler btn-sm" id="toggle-menu" type="button" data-bs-toggle="collapse"
+					data-bs-target="#menu" aria-controls="navbarsExample04" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav me-auto mb-2 mb-md-0">
+						<li class="nav-item"><a class="nav-link" href="https://github.com/janicemv" target="_blank"><i
+									class="fa-brands fa-github"></i></a></li>
+						<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/janicevilela/"
+								target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+						<li class="nav-item"><a class="nav-link"
+								href="https://www.researchgate.net/profile/Janice-Vilela-2" target="_blank"><i
+									class="fa-brands fa-researchgate"></i></a></li>
+					</ul>
+				</div> -->
+			</div>
+		</header>
+		<!-- Sidebar -->
+		<nav class="navbar py-3 mb-4 border-bottom" id="sidebar">
+			<div class="container">
+				<a class="navbar-brand" href="#" id="categorias">Menu</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+							aria-label="Fechar"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav">
+							<!-- Menu section  -->
+							<li class="nav-item">
+								<a class="nav-link nav-title" href="#">
+									<strong class="bd-links-heading fw-semibold"><i class="fa-regular fa-star"></i> My
+										links</strong>
+								</a>
+								<ul class="navbar-nav">
+									<li class="nav-item"><a class="nav-link" href="https://github.com/janicemv"
+											target="_blank">Github profile</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://www.linkedin.com/in/janicevilela/"
+											target="_blank">LinkedIn</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://www.researchgate.net/profile/Janice-Vilela-2"
+											target="_blank">Research Gate</a></li>
+								</ul>
+							</li>
+							<!-- Menu section  -->
+							<li class="nav-item">
+								<a class="nav-link nav-title" href="#">
+									<strong class="bd-links-heading fw-semibold"><i class="fa-solid fa-bolt"></i>
+										Webpages</strong>
+								</a>
+								<ul class="navbar-nav">
+									<li class="nav-item"><a class="nav-link"
+											href="https://janicemv.github.io/stopwatch/" target="_blank">Stopwatch</a>
+									</li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://janicemv.github.io/todays-laundry/" target="_blank">Today's
+											Laundry</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://janicemv.github.io/caesar-code/" target="_blank">Caesar
+											code</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://janicemv.github.io/coloring-pad/" target="_blank">Coloring
+											pad</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://janicemv.github.io/memory-game/" target="_blank">Memory
+											Game</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://janicemv.github.io/starpath/"
+											target="_blank">Starpath</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://janicemv.github.io/sorolla/"
+											target="_blank">Sorolla (CSS responsiveness)</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://janicemv.github.io/portfolio/" target="_blank">Portfolio (CSS
+											responsiveness)</a></li>
+								</ul>
+
+							</li>
+
+							<!-- Menu section  -->
+							<li class="nav-item">
+								<a class="nav-link nav-title" href="#">
+									<strong class="bd-links-heading fw-semibold"><i class="fa-brands fa-github"></i>
+										Github repositories</strong>
+								</a>
+								<ul class="navbar-nav">
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/stopwatch/" target="_blank">Stopwatch</a>
+									</li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/todays-laundry" target="_blank">Today's
+											Laundry</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/caesar-code/" target="_blank">Caesar
+											code</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/coloring-pad/" target="_blank">Coloring
+											pad</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/memory-game/" target="_blank">Memory
+											Game</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/starpath/" target="_blank">Starpath</a>
+									</li>
+									<li class="nav-item"><a class="nav-link" href="https://github.com/janicemv/sorolla/"
+											target="_blank">Sorolla (CSS responsiveness)</a></li>
+									<li class="nav-item"><a class="nav-link"
+											href="https://github.com/janicemv/portfolio/" target="_blank">Portfolio (CSS
+											responsiveness)</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- End Sidebar -->
+	</div>
+	<!-- End menu -->
+
+	<!-- CONTEÚDO PRINCIPAL -->
+	<main>
+		<div class="container" id="main-container">
+			<section class="py-5 text-center container">
+				<div class="row py-lg-5">
+					<div class="col-lg-6 col-md-8 mx-auto">
+						<h1 class="fw-light">Hi! I'm Janice!</h1>
+						<p class="lead text-muted">I am a Brazilian living in Belgium since November 2018.</p>
+						<p class="lead text-muted">I am a former researcher who decided to follow my passion for
+							technology and turn it into my profession.</p>
+						<p>
+							<a href="https://github.com/janicemv" class="btn btn-light my-2"><i
+								class="fa-brands fa-github"></i> Github</a>
+							<a href="https://www.linkedin.com/in/janicevilela/" class="btn btn-light my-2"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+							<a href="https://www.researchgate.net/profile/Janice-Vilela-2/" class="btn btn-light my-2"><i class="fa-brands fa-researchgate"></i> Research gate</a>
+							
+						
+						</p>
+						<p class="lead text-muted">This is my second experience using code to make my own portfolio. You
+							will find my main productions and links on the menu and on the section below!</p>
+
+					</div>
+			</section>
+			<div class="album py-5 bg-light">
+				<div class="container">
+					<h1>My Portfolio</h1>
+					<p>Click on the menu above to see my coding projects!</p>
+					<h2>Websites</h2>
+					<div id="my-websites" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="websites">
+						
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/eow.png" class="card-img-top" alt="European Ovary Workshop">
+								<div class="card-body">
+									<h5 class="card-title">European Ovary Workshop</h5>
+									<p class="card-text">Wordpress website</p>
+									<p class="card-text"><small class="text-muted">2024</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<a href="https://europeanovaryworkshop.com/" target="_blank"
+												class="btn btn-sm btn-outline-secondary">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/adhara.png" class="card-img-top" alt="Adhara Starpath">
+								<div class="card-body">
+									<h5 class="card-title">Adhara Starpath</h5>
+									<p class="card-text">Personal Wordpress Website</p>
+									<p class="card-text"><small class="text-muted">Since 2021</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<a href="https://adharastarpath.wordpress.com/" target="_blank"
+												class="btn btn-sm btn-outline-secondary">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/tcs.png" class="card-img-top" alt="Paths of Shadows Tradition">
+								<div class="card-body">
+									<h5 class="card-title">Paths of Shadows Tradition</h5>
+									<p class="card-text">Wordpress - with a team of
+										volunteers</p>
+									<p class="card-text"><small class="text-muted">Since 2013</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<a href="https://www.caminhosdassombras.com.br" target="_blank"
+												class="btn btn-sm btn-outline-secondary">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="websites1">
+						
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/Webontwikkelaar taak_deel2_home.png" class="card-img-top"
+									alt="Webontwikkelaar">
+								<div class="card-body">
+									<h5 class="card-title">Webontwikkelaar</h5>
+									<p class="card-text">HTML/CSS exercise</p>
+									<p class="card-text"><small class="text-muted">2024</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<a href="https://janicemv.github.io/portfolio/webontwikkelaar_home.html" target="_blank"
+												class="btn btn-sm btn-outline-secondary">View</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col"></div>
+
+					</div>
+					<h2>Projects</h2>
+					<div id="my-projects" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="projects">
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/starpath.png" class="card-img-top" alt="Starpath">
+								<div class="card-body">
+									<h5 class="card-title">Starpath</h5>
+									<p class="card-text">Harvard's CS50 project - Web</p>
+									<p class="card-text"><small class="text-muted">2024</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://janicemv.github.io/starpath/" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/bookofdreams.png" class="card-img-top" alt="Book of Dreams">
+								<div class="card-body">
+									<h5 class="card-title">Book of Dreams</h5>
+									<p class="card-text">Harvard's CS50 Final Project</p>
+									<p class="card-text"><small class="text-muted">2024</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://www.youtube.com/live/3ek7k4NLrQs" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/stellarbase1.png" class="card-img-top" alt="Stellar Base">
+								<div class="card-body">
+									<h5 class="card-title">Stellar Base</h5>
+									<p class="card-text">Database transitioning to SQL</p>
+									<p class="card-text"><small class="text-muted">2022</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://docs.google.com/spreadsheets/d/1X7NPiHBHf8M74sh4tYwJmSLZ-CAdevDZ157HRtVE90o/edit?usp=sharing"
+											target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2>Writing</h2>
+					<div id="writing" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="schrijven">
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/research.png" class="card-img-top" alt="Academic publications">
+								<div class="card-body">
+									<h5 class="card-title">Academic publications</h5>
+									<p class="card-text">My Academic profile</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://www.researchgate.net/profile/Janice-Vilela-2" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/fanfics1.jpg" class="card-img-top" alt="Fanfictions">
+								<div class="card-body">
+									<h5 class="card-title">Fanfictions</h5>
+									<p class="card-text">My fanfictions (PT-BR) from long ago</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://m.fanfiction.net/u/478847/Aileen-Daw" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/fanfics2.jpg" class="card-img-top" alt="More Fanfictions">
+								<div class="card-body">
+									<h5 class="card-title">More Fanfictions</h5>
+									<p class="card-text">Fanfictions I wrote with a friend (PT-BR)</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://m.fanfiction.net/u/483731/Aileen-Daw-e-Jasmin-Tuk"
+											target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2>Books</h2>
+					<p class="obs">I wrote the books and took care myself of the entire formatting and layout to publish
+						them
+						independently via Amazon KDP. The covers were made by Otávio Seije.</p>
+
+					<div id="mybooks" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="books">
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/isis.jpg" class="card-img-top" alt="Vivendo Isis">
+								<div class="card-body">
+									<h5 class="card-title">Vivendo Isis</h5>
+									<p class="card-text">Book about the Egyptian Goddess Isis</p>
+									<p class="card-text"><small class="text-muted">2018 - In Portuguese</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://www.amazon.nl/dp/B07BT3LJKY" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/estrelas.jpg" class="card-img-top" alt="A Magia das Estrelas">
+								<div class="card-body">
+									<h5 class="card-title">A Magia das Estrelas</h5>
+									<p class="card-text">Book about stars in a spiritual sense</p>
+									<p class="card-text"><small class="text-muted">2019 - In Portuguese</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://www.amazon.nl/dp/B07MFZX35V" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/isis-en.jpg" class="card-img-top" alt="Living Isis">
+								<div class="card-body">
+									<h5 class="card-title">Living Isis</h5>
+									<p class="card-text">Book about the Egyptian Goddess Isis</p>
+									<p class="card-text"><small class="text-muted">2021 - In English</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://www.amazon.nl/dp/B092SXX8XC" target="_blank"
+											class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2>Multimedia</h2>
+					<div id="multimedia" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="multimedia">
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="./img/presentations.PNG" class="card-img-top"
+									alt="Presentations and mind maps">
+								<div class="card-body">
+									<h5 class="card-title">Presentations and mind maps</h5>
+									<p class="card-text">Materials of lessons from my teaching experience</p>
+									<p class="card-text"><small class="text-muted">2017 - 2022 - Most are in
+											Portuguese</small></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="https://drive.google.com/drive/folders/1CcDVCIhpiEtQTQoPSOHlcDEU1RkONvtu?usp=sharing"
+											target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+	</main>
+	<!-- FIM CONTEÚDO PRINCIPAL -->
+
+	<!-- FOOTER -->
+
+	<footer>
+		<div class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+			<p class="col-md-4 mb-0"> © Janice de Miranda V. Vilela - 2024</p>
+			<a href="/"
+				class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+				<svg class="bi me-2" width="40" height="32">
+					<use xlink:href="#bootstrap"></use>
+				</svg>
+			</a>
+
+		</div>
+	</footer>
+
+	<!-- END FOOTER-->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/ea216ae7a0.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

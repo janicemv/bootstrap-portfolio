@@ -1,0 +1,104 @@
+:root {
+    --background-color: #290034;
+    --primary-color: #290034;
+    --secondary-color: #d08cef;
+    --terciary-color: #f5ebff;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+header, #menu {
+    background-color: var(--background-color);
+    font-size: 0.9em;
+}
+
+#categorias {
+    font-size: 1.4em;
+
+}
+#logo {
+    margin: 0 auto;
+    color: var(--terciary-color);
+    font-size: 1.4em;
+}
+
+#sidebar {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 0.8em;
+
+}
+
+#top-menu {
+background-color: var(--terciary-color);
+}
+
+#main-menu a {
+    color: white;
+}
+
+#main-container {
+    max-width: 85%;
+    background-color: var(--terciary-color);
+    border-radius: 1rem;
+    padding: 1em;
+}
+
+header a:hover, aside a:hover {
+    font-weight: 700;
+}
+
+h2 a {
+	font-weight: bold;
+	color: var(--primary-color);
+	text-align: center;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: black;
+    padding-top: 0;
+    padding-left: 3em;
+    font-size: 1.3em;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+.nav-title {
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.card {
+    margin: 1em;
+    width: 100%;
+}
+
+#my-websites img,  #my-projects img, #writing img, #multimedia img {
+    width: 100%;
+    height: 225px;
+}
+
+footer {
+	background-color: var(--background-color);
+    color: var(--terciary-color)
+}
+
+footer p {
+	font-size: 1.2em;
+}
