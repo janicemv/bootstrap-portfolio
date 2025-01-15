@@ -2,12 +2,18 @@
     --background-color: #290034;
     --primary-color: #290034;
     --secondary-color: #d08cef;
-    --terciary-color: #f5ebff;
+    --terciary-color: #fdfbff;
     --text-color: black;
 }
 
 body {
     background-color: var(--background-color);
+}
+
+.myapps {
+    background-color: var(--background-color);
+    color: var(--terciary-color);
+    padding: 0.5em;
 }
 
 header, #menu {
